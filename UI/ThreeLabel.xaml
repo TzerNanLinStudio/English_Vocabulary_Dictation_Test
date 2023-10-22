@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="UI.ThreeLabel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI"
+             xmlns:emgu="clr-namespace:Emgu.CV.UI;assembly=Emgu.CV.UI"
+             xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+             mc:Ignorable="d" 
+             FontSize="12"
+             FontFamily="Microsoft JhengHei"
+             MinWidth="280" MaxWidth="280" MinHeight="30" MaxHeight="30">
+
+    <UserControl.Resources>
+        <ContextMenu x:Key="ContextMenu">
+            <MenuItem Name="MenuItem_Pronounce" Header="發音" Click="MenuItem_Click"/>
+            <MenuItem Name="MenuItem_Definition" Header="定義" Click="MenuItem_Click"/>
+            <MenuItem Name="MenuItem_Delete" Header="刪除" Click="MenuItem_Click"/>
+        </ContextMenu>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition x:Name="GridRowDef_00" Height="1"/>
+            <RowDefinition x:Name="GridRowDef_01" Height="28"/>
+            <RowDefinition x:Name="GridRowDef_02" Height="1"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition x:Name="GridColDef_00" Width="1"/>
+            <ColumnDefinition x:Name="GridColDef_01" Width="92"/>
+            <ColumnDefinition x:Name="GridColDef_02" Width="1"/>
+            <ColumnDefinition x:Name="GridColDef_03" Width="92"/>
+            <ColumnDefinition x:Name="GridColDef_04" Width="1"/>
+            <ColumnDefinition x:Name="GridColDef_05" Width="92"/>
+            <ColumnDefinition x:Name="GridColDef_06" Width="1"/>
+        </Grid.ColumnDefinitions>
+
+        <Border x:Name="Boader_English" Background="DeepSkyBlue" Grid.Column="1" Grid.Row="1" x:FieldModifier="public"/>
+        <Border x:Name="Boader_PartOfSpeech" Background="DeepSkyBlue" Grid.Column="3" Grid.Row="1" x:FieldModifier="public"/>
+        <Border x:Name="Boader_Chinese" Background="DeepSkyBlue" Grid.Column="5" Grid.Row="1" x:FieldModifier="public"/>
+        
+        <StackPanel x:Name="StackPanel_English" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="1" x:FieldModifier="public">
+            <Button x:Name="Button_English" Content="" HorizontalContentAlignment="Center" Height="28" Width="92" BorderThickness="0" Background="DeepSkyBlue" Click="Button_English_Click" ContextMenu="{StaticResource ContextMenu}" x:FieldModifier="public"/>
+        </StackPanel>
+        <StackPanel  x:Name="StackPanel_PartOfSpeech" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="3" Grid.Row="1" x:FieldModifier="public">
+            <Label x:Name="Label_PartOfSpeech" Content="" HorizontalContentAlignment="Center" x:FieldModifier="public"/>
+        </StackPanel>
+        <StackPanel  x:Name="StackPanel_Chinese" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="5" Grid.Row="1" x:FieldModifier="public">
+            <Label x:Name="Label_Chinese" Content="" HorizontalContentAlignment="Center" x:FieldModifier="public"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

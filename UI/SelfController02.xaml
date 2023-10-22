@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="UI.SelfController02"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI"
+             xmlns:emgu="clr-namespace:Emgu.CV.UI;assembly=Emgu.CV.UI"
+             xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+             mc:Ignorable="d" 
+             FontSize="12"
+             FontFamily="Microsoft JhengHei"
+             MinWidth="190" MaxWidth="190" MinHeight="30" MaxHeight="30">
+
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition x:Name="GridRowDef_00" Height="2"/>
+            <RowDefinition x:Name="GridRowDef_01" Height="26"/>
+            <RowDefinition x:Name="GridRowDef_02" Height="2"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition x:Name="GridColDef_00" Width="2"/>
+            <ColumnDefinition x:Name="GridColDef_01" Width="92"/>
+            <ColumnDefinition x:Name="GridColDef_02" Width="2"/>
+            <ColumnDefinition x:Name="GridColDef_03" Width="92"/>
+            <ColumnDefinition x:Name="GridColDef_04" Width="2"/>
+        </Grid.ColumnDefinitions>
+
+        <Border x:Name="Boader_One" Background="DeepSkyBlue" Grid.Column="1" Grid.Row="1" x:FieldModifier="public"/>
+        <Border x:Name="Boader_Two" Background="DeepSkyBlue" Grid.Column="3" Grid.Row="1" x:FieldModifier="public"/>
+
+        <StackPanel x:Name="StackPanel_One" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="1" x:FieldModifier="public">
+            <Button x:Name="Button_One" Content="" HorizontalContentAlignment="Center" Height="26" Width="92" BorderThickness="0" Background="DeepSkyBlue" Click="Button_One_Click" x:FieldModifier="public"/>
+        </StackPanel>
+        <StackPanel  x:Name="StackPanel_Two" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="3" Grid.Row="1" x:FieldModifier="public">
+            <Label x:Name="Label_Two" Content="" HorizontalContentAlignment="Center" x:FieldModifier="public"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

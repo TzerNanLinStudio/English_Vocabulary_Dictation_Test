@@ -1,0 +1,69 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        xmlns:emgu="clr-namespace:Emgu.CV.UI;assembly=Emgu.CV.UI"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"   
+        x:Class="UI.ChoiceList"
+        mc:Ignorable="d"
+        FontSize="12"
+        FontFamily="Microsoft JhengHei"
+        Background="SkyBlue"
+        WindowStartupLocation="CenterScreen"
+        Title="選擇清單" Height="100" Width="300" Closing="MainWindow_Closing">
+
+    <Window.Resources>
+        <Style x:Key="buttonHover" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#8a8c8e"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderThickness="3" BorderBrush="Black" CornerRadius="3">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="BorderThickness" Value="5" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#d3d7d4"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Border Background="SkyBlue" BorderThickness="0" Margin="-1,-1,-1,-1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button x:Name="Btn_CreatNewText" Width="75" Height="25" Click="Btn_Click" Style="{StaticResource buttonHover}">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="TextBlock_CreatNewText" Text=" 建立新檔"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+                <Border Background="SkyBlue" Height="25" Width="25"/>
+                <Button x:Name="Btn_OpenOddText" Width="75" Height="25" Click="Btn_Click" Style="{StaticResource buttonHover}">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="TextBlock_OpenOddText" Text=" 開啟舊檔"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+                <Border Background="SkyBlue" Height="25" Width="25"/>
+                <Button x:Name="Btn_Cancel" Width="75" Height="25" Click="Btn_Click" Style="{StaticResource buttonHover}">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="TextBlock_Cancel" Text=" 取消"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

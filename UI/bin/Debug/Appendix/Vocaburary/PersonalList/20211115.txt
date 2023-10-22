@@ -1,0 +1,12 @@
+flagrant@形容詞@惡名昭彰的
+fragrant@形容詞@芳香的
+grant@動詞@授予
+vagrant@名詞@遊民
+immigrant@名詞@移民
+pending@形容詞@未決定的
+forthcoming@形容詞@即將到來的
+imminent@形容詞@即將發生的
+inevitable@形容詞@不可避免的
+unavoidable@形容詞@不可避免的
+indispensable@形容詞@必不可少的
+cat@名詞@貓

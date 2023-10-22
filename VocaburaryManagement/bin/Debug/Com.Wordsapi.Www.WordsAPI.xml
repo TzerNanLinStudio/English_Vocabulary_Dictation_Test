@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Com.Wordsapi.Www.WordsAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Com.Wordsapi.Www.WordsAPI.Api.WordsApi.Details(System.String,System.String,System.String)">
+            <summary>
+            To retrieve a specific set of details of a word. To retrieve a specific set of details of a word, for instance, a word's synonyms, append the detail type to the URL string.
+            </summary>
+            <param name="accessToken">API key or token for authorization</param>
+            <param name="word">Word</param>
+            <param name="detail">Detail</param>
+            <returns></returns>
+        </member>
+        <member name="M:Com.Wordsapi.Www.WordsAPI.Api.WordsApi.Get(System.String,System.String)">
+            <summary>
+              Get
+            </summary>
+            <param name="accessToken">API key or token for authorization</param>
+            <param name="word">Word</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
