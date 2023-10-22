@@ -1,4 +1,4 @@
-# Image Classification of Animal Species
+# English Vocabulary Dictation Test
 
 # 1. Introduction
 
@@ -6,7 +6,7 @@ This project was a coursework for my course credit and was completed during my m
 
 Coursework Specification: The CIFARTile dataset is an extension to the CIFAR10 dataset. In each image there are four CIFAR10 images tiled in a grid, as shown in the following picture. The label is the number of unique CFAR10 image classes within the tiled image subtract one. For example, as shown in the following picture, there are two images of birds, one of a frog and one of an automobile. Thus, three unique classes and hence the label is 2. Additionally, cutting the image up into 4 and running each through a CFAR10 classifier is not allowed by the module leader and lectures.
 
-![Image Error](./Image/image_01.png)
+![Image Error](./Other/Image/image_01.png)
 
 # 2. Solution
 
@@ -16,12 +16,16 @@ In this project, I opted for Pytorch as the primary deep learning framework and 
 
 The following picture displays the training and prediction results of the VGG model.
 
-![Image Error](./Image/image_02.png)
+
 
 The following picture displays the training and prediction results of the Resnet model.
 
-![Image Error](./Image/image_03.png)
+
 
 The following picture displays the training and prediction results of the Densenet model.
 
-![Image Error](./Image/image_04.png)
+
+
+```
+git clone https://github.com/ultralytics/yolov5.git
+```
