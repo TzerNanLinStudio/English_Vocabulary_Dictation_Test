@@ -1,6 +1,6 @@
 # English Vocabulary Dictation Test
 
-<span style="color:red; font-weight:bold;">This markdown file is still being edited and not all content has been completed yet.</span>
+**This markdown file is still being edited and not all content has been completed yet.**
 
 # 1. Introduction
 
