@@ -1,6 +1,6 @@
 # English Vocabulary Dictation Test
 
-**This markdown file is still being edited and not all content has been completed yet.**
+**This project has completed its phase tasks but this markdown file is still being edited and not all content has been completed yet.**
 
 # 1. Introduction
 
