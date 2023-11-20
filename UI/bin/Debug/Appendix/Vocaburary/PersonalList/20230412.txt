@@ -1,2 +1,8 @@
 chew@v@商量
 crow@n@烏鴉
+brake@v@剎車
+coincident@adj@巧合的
+envy@v@忌妒
+outbreak@n@爆發;暴動
+rhythm@n@旋律;節奏
+horizon@n@視野

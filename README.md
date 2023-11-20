@@ -1,6 +1,6 @@
 # English Vocabulary Dictation Test
 
-**This project has completed its phase tasks but this markdown file is still being edited and not all content has been completed yet.**
+**This project has completed but this markdown file is still being edited and not all content has been completed yet.**
 
 # 1. Introduction
 
@@ -8,18 +8,32 @@ This project was developed as a side project while I was preparing for the IELTS
 
 I will briefly introduce the functionality and usage of this software. Everyone is welcome to download and test it from GitHub. If there are any questions, feel free to email me.
 
-![Image Error](./Other/Image/image_01.png)
-
 # 2. software description
 
 ## 2.1. Save words
 
-( Show UI )
+![Image Error](./Other/Image/image_01.png)
 
-( explaination)
+![Image Error](./Other/Image/image_02.png)
 
-(flowchart)
+![Image Error](./Other/Image/image_03.png)
+
+(Flowchart)
+
+(Explaination)
 
 ## 2.2. Test words
 
+![Image Error](./Other/Image/image_04.png)
+
+![Image Error](./Other/Image/image_05.png)
+
+![Image Error](./Other/Image/image_06.png)
+
+(Flowchart)
+
+(Explaination)
+
 ## 2.3. Other functionaliy
+
+(Explaination)

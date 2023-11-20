@@ -1,0 +1,6 @@
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Config\bin\x64\Debug\Config_sharp.dll
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Config\bin\x64\Debug\Config_sharp.pdb
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Config\obj\x64\Debug\Config.csproj.AssemblyReference.cache
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Config\obj\x64\Debug\Config.csproj.CoreCompileInputs.cache
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Config\obj\x64\Debug\Config_sharp.dll
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Config\obj\x64\Debug\Config_sharp.pdb

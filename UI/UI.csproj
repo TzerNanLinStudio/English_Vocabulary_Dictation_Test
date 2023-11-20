@@ -40,7 +40,8 @@
     <StartupObject>UI.App</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Dictionary.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Emgu.CV.UI, Version=4.1.1.3497, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
@@ -201,10 +202,10 @@
     <Resource Include="Icon\Month.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Dictionary.ico" />
+    <Resource Include="Icon\Keyboard.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Icon\Keyboard.ico" />
+    <Resource Include="Icon\Dictionary.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\EMGU.CV.4.1.1.3497\build\EMGU.CV.targets" Condition="Exists('..\packages\EMGU.CV.4.1.1.3497\build\EMGU.CV.targets')" />

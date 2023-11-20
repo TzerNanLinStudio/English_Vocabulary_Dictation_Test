@@ -11,6 +11,7 @@
         FontFamily="Microsoft JhengHei"
         Background="SkyBlue"
         WindowStartupLocation="CenterScreen"
+        Icon="/Icon/Dictionary.ico"
         Title="英文單字聽寫" Height="390" Width="850" Closing="MainWindow_Closing">
 
     <Window.Resources>
