@@ -8,7 +8,7 @@ This project was developed as a side project while I was preparing for the IELTS
 
 I will briefly introduce the functionality and usage of this software. Everyone is welcome to download and test it from GitHub. If there are any questions, feel free to email me.
 
-# 2. software description
+# 2. Software Application Description
 
 ## 2.1. Functionaliy - Save words
 
