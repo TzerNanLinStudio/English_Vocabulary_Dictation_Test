@@ -1,8 +1,8 @@
 # English Vocabulary Dictation Test
 
-**This project has completed but this markdown file is still being edited and not all content has been completed yet.**
-
 # 1. Introduction
+
+**This project has completed but this markdown file is still being edited and not all content has been completed yet.**
 
 This project was developed as a side project while I was preparing for the IELTS exam, to help myself review for the test. When I was private tutor, it was also used as teaching material for a university student. The student developed an English interface under my guidance, while mine is in Chinese.
 
