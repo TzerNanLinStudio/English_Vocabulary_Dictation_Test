@@ -18,7 +18,7 @@ I will briefly introduce the functionality and usage of this software. Everyone 
 
 ![Image Error](./Other/Image/image_03.png)
 
-The three images above demonstrate the basic functionalities of the "測驗區". Users can select notes from different dates, add new English words, parts of speech, and Chinese meanings to their notes. When users click on the English word field, the system will pronounce the word and display its basic English definition. Therefore, users can save unfamiliar words on this tab-page and review them.
+The three images above demonstrate the basic functionalities of the "測驗區" tab-page. Users can select notes from different dates, add new English words, parts of speech, and Chinese meanings to their notes. When users click on the English word field, the system will pronounce the word and display its basic English definition. Therefore, users can save unfamiliar words on this tab-page and review them.
 
 ## 2.2. Test Words
 
@@ -32,7 +32,13 @@ The three images above demonstrate the basic functionalities of the "測驗區".
 
 Users can use this interface to practice dictation, helping them review the pronunciation and spelling of unfamiliar words. (More explaination will be updated soon)
 
-# 3. Future Work
+# 3. References
+
+ - Integrated Development Environment: Visual Studio 2019
+ - Frontend Development: WPF (Windows Presentation Foundation)
+ - Backend Development: C#
+
+# 4. Future Work
 
  - Use the Config class to record the parameters required for software operation to ensure that the software's state when opened is consistent with its state when it was last closed.
  - Use the LogRecorder to record the software's running status.
