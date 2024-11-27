@@ -15,12 +15,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Install Visual Studio
-        run: |
-          choco install visualstudio2019buildtools --version=16.11.42 -y # [版本號根據你的本地 Visual Studio 調整]
-          choco install visualstudio2019-workload-vctools -y
-          # [刪除以下一行，因為 visualstudio2019-workload-msbuildtools 無法找到]
-          # choco install visualstudio2019-workload-msbuildtools -y
+      # - name: Install Visual Studio
+      #   run: |
+      #     choco install visualstudio2019buildtools --version=16.11.42 -y # [版本號根據你的本地 Visual Studio 調整]
+      #     choco install visualstudio2019-workload-vctools -y
+      #     # [刪除以下一行，因為 visualstudio2019-workload-msbuildtools 無法找到]
+      #     # choco install visualstudio2019-workload-msbuildtools -y
 
       - name: Build solution
         run: msbuild EnglishVocaburary.sln /p:Configuration=Debug # [改為 Debug 或 Release 根據需求調整]
