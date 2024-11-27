@@ -1,11 +1,3 @@
-
-這個錯誤表明 vstest.console.exe 沒有被識別為可執行命令。這通常是因為 vstest.console.exe 的路徑未正確添加到環境變數中，或 Visual Studio 測試工具未正確安裝。
-
-以下是修正方法：
-
-修改配置文件以解決問題
-yaml
-複製程式碼
 name: CI
 on:
   push:
