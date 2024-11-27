@@ -1,33 +1,3 @@
-# name: CI
-# on:
-#   push:
-#     branches:
-#       - feature/update # [修改為你的分支名稱]
-#   pull_request:
-#     branches:
-#       - feature/update # [修改為你的分支名稱]
-
-# jobs:
-#   build:
-#     runs-on: windows-latest
-
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v3
-
-#       # - name: Install Visual Studio
-#       #   run: |
-#       #     choco install visualstudio2019buildtools --version=16.11.42 -y # [版本號根據你的本地 Visual Studio 調整]
-#       #     choco install visualstudio2019-workload-vctools -y
-#       #     # [刪除以下一行，因為 visualstudio2019-workload-msbuildtools 無法找到]
-#       #     # choco install visualstudio2019-workload-msbuildtools -y
-
-#       - name: Build solution
-#         run: msbuild EnglishVocaburary.sln /p:Configuration=Debug # [改為 Debug 或 Release 根據需求調整]
-
-#       - name: Run tests
-#         run: |
-#           vstest.console.exe "Test\bin\Debug\Test.dll" /Logger:trx # [確認 Debug 對應的測試程序集路徑]
 name: CI
 on:
   push:
@@ -54,7 +24,7 @@ jobs:
 
       - name: Build solution
         run: |
-          $env:MSBUILD_PATH EnglishVocaburary.sln /p:Configuration=Debug
+          & $env:MSBUILD_PATH EnglishVocaburary.sln /p:Configuration=Debug
 
       - name: Run tests
         run: |
