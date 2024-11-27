@@ -10,7 +10,6 @@ C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Test\bin\D
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Test\obj\Debug\Test.csproj.AssemblyReference.cache
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\Test\obj\Debug\Test.dll

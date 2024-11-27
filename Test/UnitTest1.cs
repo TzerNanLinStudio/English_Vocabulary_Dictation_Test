@@ -26,6 +26,16 @@ namespace Test
             Assert.AreEqual(expected, result);
         }
 
+        [TestMethod]
+        public void TestMethod2()
+        {
+            int a = 5;
+            int b = 5;
+
+            // Assert
+            Assert.AreEqual(a, b);
+        }
+
         public int Add(int a, int b)
         {
             return a + b;
