@@ -1,3 +1,11 @@
+
+這個錯誤表明 vstest.console.exe 沒有被識別為可執行命令。這通常是因為 vstest.console.exe 的路徑未正確添加到環境變數中，或 Visual Studio 測試工具未正確安裝。
+
+以下是修正方法：
+
+修改配置文件以解決問題
+yaml
+複製程式碼
 name: CI
 on:
   push:
@@ -26,6 +34,13 @@ jobs:
         run: |
           & $env:MSBUILD_PATH EnglishVocaburary.sln /p:Configuration=Debug
 
+      - name: Find VSTest.console.exe
+        id: vstest-setup
+        run: |
+          & "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.VisualStudio.PackageGroup.TestTools.Core -find Common7\IDE\Extensions\TestPlatform\vstest.console.exe > vstestpath.txt
+          $vstestPath = Get-Content vstestpath.txt
+          echo "VSTEST_PATH=$vstestPath" >> $env:GITHUB_ENV
+
       - name: Run tests
         run: |
-          vstest.console.exe "Test\bin\Debug\Test.dll" /Logger:trx
+          & $env:VSTEST_PATH "Test\bin\Debug\Test.dll" /Logger:trx
