@@ -1,11 +1,11 @@
-name: CI
+name: test
 on:
   push:
     branches:
-      - feature/update # 修改為你的分支名稱
+      - main 
   pull_request:
     branches:
-      - feature/update # 修改為你的分支名稱
+      - main
 
 jobs:
   build:
