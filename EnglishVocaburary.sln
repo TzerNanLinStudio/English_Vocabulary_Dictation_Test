@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogRecorder", "LogRecorder\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocaburaryCore", "VocaburaryManagement\VocaburaryCore.csproj", "{78F4DC5C-D5EA-4101-8394-0D86B86B28FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE0D7344-9A08-4C93-B039-13E480793EC1} = {FE0D7344-9A08-4C93-B039-13E480793EC1}
+		{78F4DC5C-D5EA-4101-8394-0D86B86B28FE} = {78F4DC5C-D5EA-4101-8394-0D86B86B28FE}
+		{BD8BCFBE-A136-4737-9487-03373BAEE5D8} = {BD8BCFBE-A136-4737-9487-03373BAEE5D8}
+		{60C16FC7-AFA4-478A-B76F-1C7E9B04342B} = {60C16FC7-AFA4-478A-B76F-1C7E9B04342B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +63,14 @@ Global
 		{78F4DC5C-D5EA-4101-8394-0D86B86B28FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{78F4DC5C-D5EA-4101-8394-0D86B86B28FE}.Release|x64.ActiveCfg = Release|Any CPU
 		{78F4DC5C-D5EA-4101-8394-0D86B86B28FE}.Release|x64.Build.0 = Release|Any CPU
+		{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}.Debug|x64.Build.0 = Debug|Any CPU
+		{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}.Release|x64.ActiveCfg = Release|Any CPU
+		{139B8E8E-773D-48E9-BB6F-DDD1074EB3D3}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

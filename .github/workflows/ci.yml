@@ -1,0 +1,38 @@
+name: CI
+on:
+  push:
+    branches:
+      - feature/update # 修改為你的分支名稱
+  pull_request:
+    branches:
+      - feature/update # 修改為你的分支名稱
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up MSBuild
+        id: msbuild-setup
+        run: |
+          & "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\MSBuild.exe > msbuildpath.txt
+          $msbuildPath = Get-Content msbuildpath.txt
+          echo "MSBUILD_PATH=$msbuildPath" >> $env:GITHUB_ENV
+
+      - name: Build solution
+        run: |
+          & $env:MSBUILD_PATH EnglishVocaburary.sln /p:Configuration=Debug
+
+      - name: Find VSTest.console.exe
+        id: vstest-setup
+        run: |
+          & "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.VisualStudio.PackageGroup.TestTools.Core -find Common7\IDE\Extensions\TestPlatform\vstest.console.exe > vstestpath.txt
+          $vstestPath = Get-Content vstestpath.txt
+          echo "VSTEST_PATH=$vstestPath" >> $env:GITHUB_ENV
+
+      - name: Run tests
+        run: |
+          & $env:VSTEST_PATH "Test\bin\Debug\Test.dll" /Logger:trx
