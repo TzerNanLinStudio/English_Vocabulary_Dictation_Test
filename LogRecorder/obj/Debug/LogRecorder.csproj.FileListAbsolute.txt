@@ -48,4 +48,3 @@ C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\LogRecorde
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\LogRecorder\obj\Debug\LogRecorder.csproj.CoreCompileInputs.cache
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\LogRecorder\obj\Debug\LogRecorder_sharp.dll
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\LogRecorder\obj\Debug\LogRecorder_sharp.pdb
-C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\LogRecorder\obj\Debug\LogRecorder.csproj.AssemblyReference.cache
