@@ -570,6 +570,11 @@ C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\bin\Deb
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\bin\Debug\zh-cn\ZedGraph.resources.dll
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\bin\Debug\zh-tw\ZedGraph.resources.dll
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\ChoiceList.baml
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\MainWindow.baml
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\SelfController03.baml
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\ThreeLabel.baml
+C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\SelfController02.baml
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\ChoiceList.g.cs
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\MainWindow.g.cs
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\SelfController03.g.cs
@@ -579,11 +584,6 @@ C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Deb
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\UI_MarkupCompile.cache
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\UI_MarkupCompile.lref
-C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\ChoiceList.baml
-C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\MainWindow.baml
-C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\SelfController03.baml
-C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\ThreeLabel.baml
-C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\SelfController02.baml
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\UI.g.resources
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\UI.Properties.Resources.resources
 C:\Users\goodc\OneDrive\Desktop\Git\English_Vocabulary_Dictation_Test\UI\obj\Debug\UI.csproj.GenerateResource.cache
